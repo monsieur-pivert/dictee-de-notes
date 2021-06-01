@@ -3,7 +3,6 @@ DuréePause          = 100
 DuréeNote           = 850
 
 NotesPossibles = [
-    Note.B3,
     Note.C, 
     Note.D, 
     Note.E, 
@@ -19,7 +18,6 @@ NotesPossibles = [
     ]
 
 NomsNotesPossibles = [
-    "Si3",
     "Do",
     "Re",
     "Mi",
