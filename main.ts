@@ -1,8 +1,8 @@
 let NombreNotesDictée = 5
 let DuréePause = 100
 let DuréeNote = 850
-let NotesPossibles = [Note.C, Note.D, Note.E, Note.F, Note.G, Note.A, Note.B, Note.C5, Note.D5, Note.E5, Note.F5, Note.G5]
-let NomsNotesPossibles = ["Do", "Re", "Mi", "Fa", "Sol", "La", "Si", "Do5", "Re5", "Mi5", "Fa5", "Sol5"]
+let NotesPossibles = [Note.C, Note.CSharp, Note.D, Note.Eb, Note.E, Note.F, Note.FSharp, Note.G, Note.GSharp, Note.A, Note.Bb, Note.B, Note.C5, Note.D5, Note.E5, Note.F5, Note.G5]
+let NomsNotesPossibles = ["Do", "Do#", "Re", "MiB", "Mi", "Fa", "Fa#", "Sol", "Sol#", "La", "SiB", "Si", "Do5", "Re5", "Mi5", "Fa5", "Sol5"]
 let NotesDictée = notesAuHasard(NotesPossibles)
 function notesAuHasard(listeNotes: number[]): number[] {
     let indexNote: number;
