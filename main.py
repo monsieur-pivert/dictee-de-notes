@@ -44,7 +44,7 @@ NomsNotesPossibles = [
     "Mi5",
     "Fa5",
     "Fa#5",
-    "Sol5"
+    "Sol5",
     "Sol#5",
 ]
 
