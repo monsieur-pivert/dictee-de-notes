@@ -22,11 +22,13 @@ NotesPossibles = [
     Note.E5,
     Note.F5,
     Note.FSHARP5,
+    Note.G5,
     Note.GSHARP5
     ]
 
 NomsNotesPossibles = [
     "Do",
+    "Do#",
     "Re",
     "MiB",
     "Mi",
