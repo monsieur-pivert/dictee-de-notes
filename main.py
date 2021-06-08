@@ -1,6 +1,7 @@
-NombreNotesDictée   = 5
-DuréePause          = 100
-DuréeNote           = 850
+NombreNotesDictée    = 5
+DuréePause                  = 100
+DuréeNote                   = 850
+IntervalleMaxi             = 6
 
 NotesPossibles = [
     Note.C,
@@ -54,9 +55,15 @@ NotesDictée : List[number] = notesAuHasard(NotesPossibles)
 
 def notesAuHasard(listeNotes):
     notes : List[number] = []
+    indexNotePrécédente = randint(0, NotesPossibles.length - 1)
     for i in range(NombreNotesDictée):
-        indexNote : number = randint(0, NotesPossibles.length - 1)
+        while True:   
+            indexNote : number = randint(0, NotesPossibles.length - 1)
+            intervalle = Math.abs(indexNote - indexNotePrécédente)
+            if intervalle <= IntervalleMaxi:
+                break
         notes.append(indexNote)
+        indexNotePrécédente = indexNote
     return notes
 
 def afficherDictéeNote() -> void :
