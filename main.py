@@ -1,7 +1,7 @@
 NombreNotesDictée    = 5
-DuréePause                  = 100
-DuréeNote                   = 850
-IntervalleMaxi             = 6
+DuréePause           = 100
+DuréeNote            = 850
+IntervalleMaxi       = 7
 
 NotesPossibles = [
     Note.C,
