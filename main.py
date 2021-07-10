@@ -4,18 +4,18 @@ DuréeNote            = 850
 IntervalleMaxi       = 7
 
 NotesPossibles = [
-    Note.C,
-    Note.CSHARP,
-    Note.D,
-    Note.EB,
-    Note.E,
-    Note.F,
-    Note.FSHARP,
-    Note.G,
-    Note.GSHARP,
-    Note.A,
-    Note.BB,
-    Note.B,
+    Note.C4,
+    Note.CSHARP4,
+    Note.D4,
+    Note.EB4,
+    Note.E4,
+    Note.F4,
+    Note.FSHARP4,
+    Note.G4,
+    Note.GSHARP4,
+    Note.A4,
+    Note.BB4,
+    Note.B4,
     Note.C5,
     Note.CSHARP5,
     Note.D5,
@@ -71,8 +71,8 @@ def afficherDictéeNote() -> void :
         basic.show_string(NomsNotesPossibles[note])
 
 def afficherPremièreNote():
-    indexPremièreNote : Number = NotesDictée[0]
-    premièreNote : String = NomsNotesPossibles[indexPremièreNote]
+    indexPremièreNote : number = NotesDictée[0]
+    premièreNote : string = NomsNotesPossibles[indexPremièreNote]
     basic.show_string(premièreNote)
 
 def jouerDictéeNote() -> void :
